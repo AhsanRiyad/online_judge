@@ -26,11 +26,5 @@ int main()
     	cout << sum_array[i] <<"\n"  ;
     }
 
-
-
-
-
-
-
     return 0;
 }
