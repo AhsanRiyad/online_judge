@@ -34,9 +34,28 @@ int main()
 	recurse(n);
 	cout << endl;
 	cout << counter;
+	int k = counter ;
+	counter = 0 ;
 	cout << endl;
-	recurse(m);
 
+	recurse(m);
+	cout << endl;
+	cout << counter;
+	int l = counter ;
+	counter = 0 ;
+	cout << endl;
+
+    int b = 0 ;
+    if(k > l){
+        b = k;
+    }else{
+        b = l;
+
+    }
+
+    cout << endl;
+    cout << "End result \n" ; 
+    cout << n << " " << m << " " << b << endl;
 
 	return 0;
 }
