@@ -2,8 +2,25 @@
 
 using namespace std;
 
+
+
+
+int f(int *x){
+
+	*x = 300 ; 
+
+
+}
+
+
+
 int main()
 {
-    cout << "Hello world!" << endl;
+	int n = 100;
+
+    f(&n) ; 
+
+    cout << n ; 
+
     return 0;
 }
